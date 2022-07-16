@@ -1,4 +1,7 @@
 # Rho-method-of-reduced-SM3
+## Pollard Rho原理
+![image](https://user-images.githubusercontent.com/104118101/179362361-1d20b4f6-3fb8-4335-b9ba-b65ff1b45056.png)
+
 ## 关键代码
 ~~~
 def Rho(n):
@@ -12,3 +15,4 @@ def Rho(n):
             break
     return (h1[:n], h2[:n])
 ~~~
+其中，参数为n，找到的碰撞为
